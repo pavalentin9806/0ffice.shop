@@ -1,0 +1,202 @@
+.body-98 {
+    color: rgb(51, 51, 51);
+    background: #ffffff;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
+        -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+}
+
+/* TOP BAR */
+.topbar{
+  height:56px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 26px;
+  background:white;
+}
+
+.logo{
+  height:45px;        /* más grande */
+  margin-top: 30px;   /* más abajo */
+  margin-left:25px;   /* mueve solo la imagen */
+}
+
+/* acciones */
+.top-actions{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  margin-top: 25px;
+}
+
+.help{
+  font-size:18px;
+  color:#737373;
+}
+
+.signin{
+  color:#737373;
+  font-weight:700;
+  text-decoration:underline;
+  font-size:18px;
+}
+
+.user-ico{
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  border:2px solid #737373;
+  position:relative;
+}
+.user-ico::after{
+  content:"";
+  width:6px;
+  height:6px;
+  background:#737373;
+  border-radius:50%;
+  position:absolute;
+  top:30%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+/* CENTRO */
+.center{
+  min-height:calc(100vh - 56px);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  text-align:center;
+  padding-top:40px;
+}
+
+/* TÍTULO */
+.title{
+  font-size:50px;
+  font-weight:600;
+  color:#2d2d2d;
+  margin-bottom:20px;
+}
+
+/* ICONOS */
+.icons{
+  margin-top: -5px;
+  margin-bottom:32px;
+}
+
+.apps-img{
+  height:44px;
+}
+
+/* BOTÓN */
+.btn{
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
+        -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    border: 1px solid rgb(0, 120, 212);
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px 22px;
+    text-decoration: none;
+    text-align: center;
+    min-width: 80px;
+    height: 49px;
+    background-color: rgb(0, 120, 212);
+    color: rgb(255, 255, 255);
+    width: 217px;
+    margin-top: 25px;
+    margin-bottom: 28px;   /* 👈 ESPACIO con el texto azul */
+    user-select: none;
+}
+
+/* LINK */
+.footlink{
+  font-size:18px;
+  color:rgb(0, 86, 152);
+  text-decoration:underline;
+  margin-top: 5px;   /* 👈 esto lo baja */
+}
+
+/* Imagen Grande */
+.bottom-img{
+  margin-top: 70px;   /* espacio con el link */
+  max-width: 1150px;   /* tamaño de la imagen */
+  height: auto;
+}
+
+/* Imagen usuario */
+.user-img{
+  height:40px;      /* tamaño del icono */
+  width:auto;
+  cursor:pointer;
+}
+
+
+.ms-footer{
+  width:100%;
+  background:#f3f3f3;
+  font-size:14px;
+  color:#444;
+  padding:16px 24px;
+  box-sizing:border-box;
+  margin-top:40px;
+}
+
+.footer-top{
+  margin-bottom:12px;
+}
+
+.lang{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  color:#333;
+}
+
+.footer-bottom{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:16px;
+}
+
+.footer-left{
+  display:flex;
+  align-items:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.footer-left a{
+  color:#444;
+  text-decoration:none;
+}
+
+.footer-left a:hover{
+  text-decoration:underline;
+}
+
+.privacy-box{
+  background:#eaeaea;
+  padding:6px 10px;
+  border-radius:4px;
+  font-size:13px;
+}
+
+.footer-right{
+  color:#444;
+  white-space:nowrap;
+}
